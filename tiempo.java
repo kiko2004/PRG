@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class tiempo {
+public class Tiempo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce un numero de segundos");
