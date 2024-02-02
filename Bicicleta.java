@@ -78,7 +78,21 @@ public class Bicicleta {
         return this.existencias;
     }
 
+    public void comprar(){
+        existencias++;
 
+    }
+    public boolean vender(){
+        if (existencias < 1) {
+            return false;
+            existencias--;
+            return true;
+        }
+
+
+
+
+    }
     @Override
     public String toString() {
         return "{" +
@@ -96,3 +110,4 @@ public class Bicicleta {
     
 
 }
+
